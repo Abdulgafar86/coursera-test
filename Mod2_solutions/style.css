@@ -1,36 +1,43 @@
 * 
 {
 		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
+		margin: 0px;
+		padding: 0px;
 		font-family: Arial, Helvetica, sans-serif;
+		
+	}
+	body {
+		background-image: url(anon.jpg);
 	}
 	section {
 		display: block;
 	}
 	p {
-		padding: 4%;
+		padding: 2%;
 		clear: right;
 		font-size: 100%;
 		background-color: #7FDBFF;
-		margin: 0;
+		margin: 0px;
+		text-align: justify;
 	}
 	h1 {
 		position: relative;
 		margin-bottom: 50px;
 		text-align: center;
 		font-size: 2.5em;
+		margin: 10px;
+		color: white;
 		}
 	h3.Chess {
 		float: right;
-		position: relative;
 		width: 30%;
-		padding: 5px 0 5px;
 		background-color: #FFCCCC;
 		text-align: center;
+		font-size: 1.25em;
 		border-bottom: 1px solid #000;
 		border-left: 1px solid #000;
-		font-size: 1.25em;
+		border-bottom: 1px solid #000;
+		padding: 5px 0 5px;
 	} 
 	h3.Law {
 		float: right;
@@ -52,10 +59,10 @@
 		border-left: 1px solid #000;
 		font-size: 1.25em;
 	}
-.container {
-	background-color: #00CCCC;
+#Container {
+	background-color:  #7FDBFF;
 	border: 1px solid #000;
-	padding: 5px
+	padding: 0px
 }
 /* Reponsive Framework*/	
 	@media (min-width: 992px) {
